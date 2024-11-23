@@ -2,6 +2,7 @@ package module1;
 
 public class Ex17 {
     public static void getSubArrayBetween(int[] numbers, int start, int end) {
+
         System.out.print("[ ");
         int a = 0;
         for (int i = 0; i < numbers.length; i++) {
@@ -15,5 +16,6 @@ public class Ex17 {
             }
         }
         System.out.println(" ]");
+
     }
 }
