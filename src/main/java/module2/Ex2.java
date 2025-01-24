@@ -1,7 +1,11 @@
 package module2;
 
 public class Ex2 {
-
+    public static void main(String[] args) {
+        Day day = Day.SUNDAY;
+        System.out.println(day.isWeekend());
+        System.out.println(day.getRusName());
+    }
 }
 
 enum Day {
