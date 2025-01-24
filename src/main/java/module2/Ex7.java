@@ -4,14 +4,14 @@ public class Ex7 {
 
 }
 
-class Student{
+class Ex7Student {
     protected final String studying;
 
-    protected Student(String work) {
+    protected Ex7Student(String work) {
         this.studying = work;
     }
 
-    public Student() {
+    public Ex7Student() {
         this.studying = "Прохожу тестовое задание.";
     }
 
@@ -20,7 +20,7 @@ class Student{
     }
 
 
-    public static class JavaStudent extends Student {
+    public static class JavaStudent extends Ex7Student {
         JavaStudent() {
             super("Прохожу курс по Java.");
         }
