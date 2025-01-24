@@ -1,4 +1,4 @@
-package module2.Ex6.Home;
+package module2.ex6.Home;
 
 public class Human {
     private final String secret; //секретики
